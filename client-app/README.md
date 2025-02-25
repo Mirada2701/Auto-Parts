@@ -1,5 +1,42 @@
 # React + TypeScript + Vite
 
+npm i
+
+npm run dev
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+```aiignore
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+# Add index CSS
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+# Add Tailwindcss
+
+npm i axios
+
+npm install @reduxjs/toolkit react-redux @types/react-redux
+
+npm install react-router-dom
+
+npm i antd
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

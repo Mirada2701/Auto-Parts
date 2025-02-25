@@ -16,6 +16,9 @@ namespace Core.MapperProfile
             CreateMap<SparePartDto,SparePart>().ReverseMap();
             CreateMap<CreateSparePartDto,SparePart>();
             CreateMap<EditSparePartDto,SparePart>();
+            CreateMap<CategoryDto, Category>().ReverseMap();
+            CreateMap<ProviderDto, Provider>().ReverseMap();
+            CreateMap<ProducerDto, Producer>().ReverseMap();
         }
     }
 }

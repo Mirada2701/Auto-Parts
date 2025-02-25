@@ -16,8 +16,10 @@ namespace Core.Dtos
         public string? CategoryName { get; set; }
         public int ProducerId { get; set; }
         public string? ProducerName { get; set; }
+        public string? ProducerCountry { get; set; }
         public int ProviderId { get; set; }
         public string? ProviderName { get; set; }
+        public string? ProviderContact { get; set; }
         public string PartNumber { get; set; }
         public string? Description { get; set; }
         public int Quantity { get; set; }

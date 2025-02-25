@@ -21,6 +21,9 @@ namespace Core
         public static void AddServices(this IServiceCollection services)
         {
             services.AddScoped<IPartsService,SparePartService>();
+            services.AddScoped<ICategoryService,CategoryService>();
+            services.AddScoped<IProviderService,ProviderService>();
+            services.AddScoped<IProducerService,ProducerService>();
         }
         public static void AddFluentValidators(this IServiceCollection services)
         {
