@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, Form, Input, InputNumber, Select} from "antd";
+import {Form, Input, Select} from "antd";
 import { ISparePartPostRequest} from "./types.ts";
 import TextArea from "antd/es/input/TextArea";
 import {useNavigate} from "react-router-dom";

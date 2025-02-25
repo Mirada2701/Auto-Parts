@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Menu, theme } from 'antd';
+import { Layout, Menu} from 'antd';
 import {Link, Outlet} from "react-router-dom";
 import { ContactsOutlined, HomeOutlined, InfoCircleOutlined, ProductOutlined } from '@ant-design/icons';
 
